@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
 
-const API_URL = "http://localhost:5002/api";
+const API_URL = "react-app-production-94f9.up.railway.app";
 
 function AllUser() {
   const [users, setUsers] = useState([]);

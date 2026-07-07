@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const API_URL = "http://localhost:5002/api";
+const API_URL = "react-app-production-94f9.up.railway.app";
 
 // Helper function to get correct image URL
 const getImageUrl = (imagePath) => {
